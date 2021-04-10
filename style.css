@@ -1,0 +1,53 @@
+body{
+    margin:0%;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+h1{font-size: 70px;
+    font-style: italic;
+    text-align: center;
+}
+article {
+    padding: 10;
+    margin: 20px;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+body::before{
+content:"";
+width: 100%;
+min-height: 100vh;
+position: fixed;
+top:0;
+left: 0;
+
+background: linear-gradient(90deg, rgb(109, 221, 137),rgb(206, 165, 89));
+
+opacity: 0.8;
+z-index: -1;
+}
+
+form{
+
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #000000;
+    font-family: cursive;
+}
